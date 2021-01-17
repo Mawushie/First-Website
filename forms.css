@@ -1,0 +1,55 @@
+body{
+	
+		margin-top: 20px;
+	}
+	h2{
+		text-align: center;
+
+	}
+	div{
+		font-family: 'Roboto Condensed', sans-serif;
+		background-color: #cccccc;
+		width: 800px;
+		height: 450px;
+		margin: auto;
+		padding: 20px;
+	}
+	div h2{
+		color: green;
+		font-size: 30px;
+
+	}
+	
+	div label{
+		color: black;
+		font-size: 20px;
+		margin: auto;
+	}
+
+	.input{
+		width: 700px;
+		height: 10px;
+		padding: 20px;
+
+	}
+
+	section{
+		font-family: 'Roboto Condensed', sans-serif;
+		background-color: #cccccc;
+		width: 800px;
+		height: 200px;
+		margin: auto;
+		padding: 20px;
+		font-size: 20px;
+	}
+
+	button{
+		width: 750px;
+		padding: 20px;
+		font-size: 20px;
+		text-align: center;
+
+
+
+	}
+

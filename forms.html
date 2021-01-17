@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practising Forms</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+	<style>
+		body{
+		margin-top: 20px;
+	}
+	h2{
+		text-align: center;
+	}
+	div{
+		font-family: 'Roboto Condensed', sans-serif;
+		background-color: #cccccc;
+		width: 800px;
+		height: 450px;
+		margin: auto;
+		padding: 20px;
+	}
+	div h2{
+		color: green;
+		font-size: 30px;
+	}
+	
+	div label{
+		color: black;
+		font-size: 20px;
+		margin: auto;
+	}
+
+	.input{
+		width: 700px;
+		height: 10px;
+		padding: 20px;
+	}
+
+	section{
+		font-family: 'Roboto Condensed', sans-serif;
+		background-color: #cccccc;
+		width: 800px;
+		height: 200px;
+		margin: auto;
+		padding: 20px;
+		font-size: 20px;
+	}
+
+	button{
+		width: 750px;
+		padding: 20px;
+		font-size: 20px;
+		text-align: center;
+
+	}
+	</style>
+</head>
+<body>
+		
+			<div>
+				<h2 class="heading">Home Delivery Sign Up</h2>
+				<form>
+				<label>First Name</label><br>
+				<input type="text" name="firstname" class="input"><br><br>
+
+				<label>Last Name</label><br>
+				<input type="text" name="lastname" class="input"><br><br>
+
+				<label>Email</label><br>
+				<input type="email" name="email" class="input"><br><br>
+
+				<label>Phone Number</label><br>
+				<input type="number" name="phonenumber" class="input">
+
+			</div>
+
+			<section>
+
+				<label>Gender</label><br>
+
+				<input type="radio" name="gender" value="male">
+				<label>Male</label><br>
+
+				<input type="radio" name="gender" value="female" >
+				<label>Female</label><br>
+
+				<input type="radio" name="gender" value="Other">
+				<label>Other</label><br><br>
+
+				<button type="submit">Submit</button>
+
+			</section>
+
+			</form>
+	
+</body>
+</html>
